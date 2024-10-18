@@ -65,7 +65,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
                 .size(260.dp)
         )
         Text(text = "Nama",
-
+            fontSize = 30.sp
         )
     }
 }
