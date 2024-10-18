@@ -11,6 +11,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Scaffold
@@ -80,6 +81,9 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .padding(16.dp)
                 .size(250.dp, 420.dp)
+                .clip(RoundedCornerShape(150.dp)))
 
     }
 }
+
+
