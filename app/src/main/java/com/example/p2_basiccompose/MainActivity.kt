@@ -52,7 +52,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxSize())
     {
         Text("Login",
-
+            fontSize = 40.sp,
+            fontWeight = FontWeight.Bold
         )
     }
 }
