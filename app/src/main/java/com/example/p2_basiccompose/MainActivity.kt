@@ -56,7 +56,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontWeight = FontWeight.Bold
         )
         Text(text = "Ini adalah halaman login",
-
+            fontSize = 20.sp
         )
     }
 }
