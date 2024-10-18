@@ -89,4 +89,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
     }
 }
 
+@Preview(showBackground = true)
+
+}
+
 
