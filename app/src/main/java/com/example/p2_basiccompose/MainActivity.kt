@@ -59,5 +59,9 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontSize = 20.sp
         )
         Spacer(modifier = Modifier.padding(20.dp))
+        Image( painter = painterResource(id = R.drawable.umy),
+            contentDescription = "",
+
+        )
     }
 }
