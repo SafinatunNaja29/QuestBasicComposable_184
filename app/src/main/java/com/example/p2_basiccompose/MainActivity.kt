@@ -37,7 +37,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             P2_BasicComposeTheme {
-
+                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    BasicColumn(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
