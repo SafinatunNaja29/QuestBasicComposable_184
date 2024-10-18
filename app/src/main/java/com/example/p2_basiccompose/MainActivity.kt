@@ -64,5 +64,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .size(260.dp)
         )
+        Text(text = "Nama",
+
+        )
     }
 }
