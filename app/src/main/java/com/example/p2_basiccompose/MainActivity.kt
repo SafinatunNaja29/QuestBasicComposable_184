@@ -21,6 +21,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.input.pointer.SuspendingPointerInputModifierNode
 import androidx.compose.ui.res.painterResource
@@ -81,7 +82,9 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .padding(16.dp)
                 .size(250.dp, 420.dp)
-                .clip(RoundedCornerShape(150.dp)))
+                .clip(RoundedCornerShape(150.dp))
+                .fillMaxSize(),
+            contentScale = ContentScale.Crop)
 
     }
 }
