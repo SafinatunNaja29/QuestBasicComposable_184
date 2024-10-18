@@ -77,5 +77,9 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Image(
             painter = painterResource(id = R.drawable.fotosaya),
             contentDescription = "",
+            modifier = Modifier
+                .padding(16.dp)
+
+
     }
 }
