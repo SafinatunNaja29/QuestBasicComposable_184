@@ -74,5 +74,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Text(text = "20220140184",
             fontSize = 40.sp
         )
+        Image(
+            painter = painterResource(id = R.drawable.fotosaya),
+            contentDescription = "",
     }
 }
