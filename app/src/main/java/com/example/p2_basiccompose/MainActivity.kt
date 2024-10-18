@@ -51,6 +51,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Top,
         modifier = Modifier.fillMaxSize())
     {
+        Text("Login",
 
+        )
     }
 }
