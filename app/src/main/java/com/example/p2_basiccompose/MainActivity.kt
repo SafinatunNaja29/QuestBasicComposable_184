@@ -46,3 +46,4 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+fun BasicColumn(modifier: Modifier = Modifier) {}
