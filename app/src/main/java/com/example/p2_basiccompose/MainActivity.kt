@@ -71,5 +71,8 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             fontSize = 15.sp,
             color = Color.Red
         )
+        Text(text = "20220140184",
+            fontSize = 40.sp
+        )
     }
 }
