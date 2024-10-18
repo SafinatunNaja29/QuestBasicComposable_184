@@ -67,5 +67,9 @@ fun BasicColumn(modifier: Modifier = Modifier) {
         Text(text = "Nama",
             fontSize = 30.sp
         )
+        Text(text = "Safinatun Naja",
+            fontSize = 15.sp,
+            color = Color.Red
+        )
     }
 }
