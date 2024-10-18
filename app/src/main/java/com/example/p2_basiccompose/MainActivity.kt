@@ -79,7 +79,7 @@ fun BasicColumn(modifier: Modifier = Modifier) {
             contentDescription = "",
             modifier = Modifier
                 .padding(16.dp)
-
+                .size(250.dp, 420.dp)
 
     }
 }
